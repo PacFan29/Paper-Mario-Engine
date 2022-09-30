@@ -1,0 +1,600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e020a8ee1ab8c444bb4383f9b25d50f9, type: 3}
+  m_Name: ItemData
+  m_EditorClassIdentifier: 
+  data:
+  - Image: {fileID: 21300000, guid: 7f717a5d9be91964f830b319f3f802aa, type: 3}
+    Name: "\u30AD\u30CE\u30B3"
+    Description: "\u305F\u3079\u305F\u3089 \u5143\u6C17\u304C\u3067\u308B \u30AD\u30CE\u30B3\n\uFF28\uFF30\u304C
+      \u300E\uFF15\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 5
+    SellingPrice: 2
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 5
+  - Image: {fileID: 21300000, guid: 5ce21cb8bf626ff40858d4f16960e2b6, type: 3}
+    Name: "\u30B9\u30FC\u30D1\u30FC\u30AD\u30CE\u30B3"
+    Description: "\u305F\u3079\u305F\u3089 \u5143\u6C17\u304C\u3067\u308B \u30AD\u30CE\u30B3\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 20
+    SellingPrice: 7
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: 135be3b0bf36a4747b9bfe812efeabfd, type: 3}
+    Name: "\u30A6\u30EB\u30C8\u30E9\u30AD\u30CE\u30B3"
+    Description: "\u305F\u3079\u305F\u3089 \u3068\u3063\u3066\u3082 \u5143\u6C17\u304C\u3067\u308B
+      \u30AD\u30CE\u30B3\n\uFF28\uFF30\u304C \u300E\uFF15\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 200
+    SellingPrice: 50
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 50
+  - Image: {fileID: 21300000, guid: e42f89ac344b3824e9aeadd89c136788, type: 3}
+    Name: "\u30DF\u30E9\u30AF\u30EB\u30AD\u30CE\u30B3"
+    Description: "\u305F\u3079\u305F\u3089 \u3082\u306E\u3059\u3054\u304F \u5143\u6C17\u304C\u3067\u308B
+      \u30AD\u30CE\u30B3\n\uFF28\uFF30\u304C \u300E\uFF11\uFF10\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 500
+    SellingPrice: 75
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 100
+  - Image: {fileID: 21300000, guid: 6daae832cd63d7f43bc4106709134cfc, type: 3}
+    Name: "\u3057\u306A\u3073\u305F\u30AD\u30CE\u30B3"
+    Description: "\u30AB\u30E9\u30AB\u30E9\u306B \u304B\u3093\u305D\u3046\u3057\u305F
+      \u30AD\u30CE\u30B3\n\uFF28\uFF30\u304C \u300E\uFF11\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 2
+    SellingPrice: 1
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 1
+  - Image: {fileID: 21300000, guid: 547cb91956267dd48a567f1ac9c51650, type: 3}
+    Name: "\u3073\u308A\u3073\u308A\u30AD\u30CE\u30B3"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u5473\u65B9\u3092\u300E\u30D3\u30EA\u30D3\u30EA\u300F\u3055\u305B\u3066\n\u3061\u3087\u304F\u305B\u3064
+      \u3075\u308C\u308B \u3066\u304D\u3092 \u3053\u3046\u3052\u304D\u3059\u308B"
+    BuyingPrice: 10
+    SellingPrice: 5
+    effects:
+    - opponent: 0
+      parameter: 18
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: f06e3a4214cf1d44bb13bf7cae7f26b5, type: 3}
+    Name: "\u3058\u308F\u3058\u308F\u30AD\u30CE\u30B3"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    effects:
+    - opponent: 0
+      parameter: 15
+      AnimationIndex: -1
+      Force: 1
+  - Image: {fileID: 21300000, guid: 4f7102b34b8928a4291a6a6ab0a3e942, type: 3}
+    Name: "\u304D\u3087\u3060\u3044\u30AD\u30CE\u30B3"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u5473\u65B9\u3092\u300E\u30C7\u30AB\u30C7\u30AB\u300F\u306B\u3057\u3066\n\u3053\u3046\u3052\u304D\u529B\u3092
+      \u30A2\u30C3\u30D7\u3055\u305B\u308B"
+    BuyingPrice: 30
+    SellingPrice: 15
+    effects:
+    - opponent: 0
+      parameter: 22
+      AnimationIndex: -1
+      Force: 0
+    - opponent: 0
+      parameter: 2
+      AnimationIndex: -1
+      Force: 3
+  - Image: {fileID: 21300000, guid: b5e4347540b7368438644f2b1a2d9657, type: 3}
+    Name: "\u304D\u3093\u304D\u3085\u3046\u30AD\u30CE\u30B3"
+    Description: "\uFF28\uFF30\u304C \uFF10\u306B\u306A\u308B\u3068 \u3058\u3069\u3046\u3066\u304D\u306B\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B \u30AD\u30CE\u30B3"
+    BuyingPrice: 50
+    SellingPrice: 10
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 10
+    - opponent: 0
+      parameter: 14
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: d54027d90ad7eda4ea70ed3c8cacb38c, type: 3}
+    Name: "\u30CF\u30CB\u30FC\u30B7\u30ED\u30C3\u30D7"
+    Description: "\u3042\u307E\uFF5E\u3044 \u30CF\u30C1\u30DF\u30C4\u306E \u30B7\u30ED\u30C3\u30D7\n\uFF26\uFF30\u304C
+      \u300E\uFF15\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 5
+    SellingPrice: 2
+    effects:
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 5
+  - Image: {fileID: 21300000, guid: de375c3c8f2ea9c45b4543c447163a06, type: 3}
+    Name: "\u30E1\u30A4\u30D7\u30EB\u30B7\u30ED\u30C3\u30D7"
+    Description: "\u3042\u307E\u304F\u3066 \u304A\u3044\u3057\u3044 \u30B7\u30ED\u30C3\u30D7\n\uFF26\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 5
+    SellingPrice: 2
+    effects:
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: 8899df075bd875d479759a5b350999b6, type: 3}
+    Name: "\u30ED\u30FC\u30E4\u30EB\u30BC\u30EA\u30FC"
+    Description: "\u3048\u3044\u3088\u3046\u307E\u3093\u3066\u3093\u306E \u3051\u3093\u3053\u3046\u3057\u3087\u304F\u3072\u3093\n\uFF26\uFF30\u304C
+      \u300E\uFF15\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 200
+    SellingPrice: 50
+    effects:
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 50
+  - Image: {fileID: 21300000, guid: 5561aac270e5f8d41929528121e7c2ea, type: 3}
+    Name: "\u30D7\u30EC\u30DF\u30A2\u30E0\u30BC\u30EA\u30FC"
+    Description: "\u3048\u3044\u3088\u3046\u307E\u3093\u3066\u3093\u306E \u3053\u3046\u304D\u3085\u3046\u3057\u3087\u304F\u3072\u3093\n\uFF26\uFF30\u304C
+      \u300E\uFF11\uFF10\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 500
+    SellingPrice: 75
+    effects:
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 100
+  - Image: {fileID: 21300000, guid: 9fc0c39e39bbce245823b62efd1adf95, type: 3}
+    Name: "\u3058\u308F\u3058\u308F\u30B7\u30ED\u30C3\u30D7"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    effects:
+    - opponent: 0
+      parameter: 16
+      AnimationIndex: -1
+      Force: 1
+  - Image: {fileID: 21300000, guid: a41067a1699158e4a8ffe233e9922231, type: 3}
+    Name: "POW\u30D6\u30ED\u30C3\u30AF"
+    Description: "\u3059\u3079\u3066\u306E\u3066\u304D\u306B \u30C0\u30E1\u30FC\u30B8\u3092
+      \u300E\uFF12\u300F\u3042\u305F\u3048\n\u3055\u3089\u306B \u30B3\u30A6\u30E9\u306E\u3066\u304D\u3092
+      \u3072\u3063\u304F\u308A\u304B\u3048\u3059"
+    BuyingPrice: 5
+    SellingPrice: 2
+    effects:
+    - opponent: 2
+      parameter: 4
+      AnimationIndex: 0
+      Force: 2
+  - Image: {fileID: 21300000, guid: acc477dffb0282445a10995bcfdb8da2, type: 3}
+    Name: "\u30D5\u30A1\u30A4\u30A2\u30D5\u30E9\u30EF\u30FC"
+    Description: "\u706B\u306E\u305F\u307E\u3067 \u3059\u3079\u3066\u306E\u3066\u304D\u3092
+      \u3082\u3084\u3057\u3066\n\u30C0\u30E1\u30FC\u30B8\u3092 \u300E\uFF13\u300F\u3042\u305F\u3048\u308B"
+    BuyingPrice: 10
+    SellingPrice: 5
+    effects:
+    - opponent: 3
+      parameter: 11
+      AnimationIndex: 1
+      Force: 3
+  - Image: {fileID: 21300000, guid: 9b9ff6ef44532e742b7b58e81201c4f7, type: 3}
+    Name: "\u3053\u304A\u308A\u306E\u3044\u3076\u304D"
+    Description: 
+    BuyingPrice: 6
+    SellingPrice: 10
+    effects:
+    - opponent: 3
+      parameter: 12
+      AnimationIndex: 0
+      Force: 3
+  - Image: {fileID: 21300000, guid: e339324bd3323934aaede18aa2b60007, type: 3}
+    Name: "\u306D\u3080\u308C\u3088\u3044\u3053\u3088"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u3059\u3079\u3066\u306E\u3066\u304D\u3092\r\n\u300E\u306D\u3080\u308A\u300F\u306B\u3057\u3066
+      \u52D5\u3051\u306A\u304F\u3059\u308B"
+    BuyingPrice: 8
+    SellingPrice: 10
+    effects:
+    - opponent: 3
+      parameter: 5
+      AnimationIndex: 2
+      Force: 0
+  - Image: {fileID: 21300000, guid: 6441a90d423d665499afecd805a311af, type: 3}
+    Name: "\u30B0\u30EB\u30B0\u30EB\u3081\u307E\u308F\u3057"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u3059\u3079\u3066\u306E\u3066\u304D\u3092\u300E\u30B0\u30EB\u30B0\u30EB\u300F\u306B\n\u3057\u3066
+      \u3053\u3046\u3052\u304D\u3092 \u30DF\u30B9\u3057\u3084\u3059\u304F\u3055\u305B\u308B"
+    BuyingPrice: 12
+    SellingPrice: 5
+    effects:
+    - opponent: 3
+      parameter: 6
+      AnimationIndex: 0
+      Force: 0
+  - Image: {fileID: 21300000, guid: dc28f2c5def19d54c849e4d0e1822b43, type: 3}
+    Name: "\u30DF\u30CB\u30DF\u30CB\u304F\u3093"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u3066\u304D\u3092\u300E\u30DF\u30CB\u30DF\u30CB\u300F\u306B\u3057\u3066\n\u3053\u3046\u3052\u304D\u529B\u3092
+      \u30C0\u30A6\u30F3\u3055\u305B\u308B"
+    BuyingPrice: 8
+    SellingPrice: 5
+    effects:
+    - opponent: 1
+      parameter: 8
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: c610a41202177724499c191f9fd1a527, type: 3}
+    Name: "\u30B9\u30C8\u30C3\u30D7\u30A6\u30A9\u30C3\u30C1"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u3059\u3079\u3066\u306E\u3066\u304D\u3092\n\u300E\u30B9\u30C8\u30C3\u30D7\u300F\u3055\u305B\u3066
+      \u52D5\u3051\u306A\u304F\u3059\u308B"
+    BuyingPrice: 30
+    SellingPrice: 5
+    effects:
+    - opponent: 3
+      parameter: 9
+      AnimationIndex: 0
+      Force: 0
+  - Image: {fileID: 21300000, guid: c7939c8319821014192eda2971236fe6, type: 3}
+    Name: "\u3075\u306B\u3083\u3075\u306B\u3083\u304F\u3093"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u3066\u304D\u3092\u300E\u3075\u306B\u3083\u3075\u306B\u3083\u300F\u306B\u3057\u3066\n\u307C\u3046\u304E\u3087\u529B\u3092
+      \u30C0\u30A6\u30F3\u3055\u305B\u308B"
+    BuyingPrice: 8
+    SellingPrice: 5
+    effects:
+    - opponent: 1
+      parameter: 10
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: a068024d365c71749b5e49a43b00ecca, type: 3}
+    Name: "\u304B\u307F\u306A\u308A\u30B4\u30ED\u30B4\u30ED"
+    Description: "\u304B\u307F\u306A\u308A\u3092 \u3066\u304D\u306B \u304A\u3068\u3057\n\u30C0\u30E1\u30FC\u30B8\u3092
+      \u300E\uFF15\u300F\u3042\u305F\u3048\u308B"
+    BuyingPrice: 10
+    SellingPrice: 5
+    effects:
+    - opponent: 1
+      parameter: 4
+      AnimationIndex: 0
+      Force: 5
+  - Image: {fileID: 21300000, guid: d939f1c621c17d444970c6368031bd00, type: 3}
+    Name: "\u30C6\u30EC\u30B5\u306E\u3075\u304F"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u5473\u65B9\u3092\u300E\u3068\u3046\u3081\u3044\u300F\u306B\u3057\u3066\n\u3066\u304D\u304B\u3089\u306E
+      \u3053\u3046\u3052\u304D\u3092 \u3075\u305B\u3050"
+    BuyingPrice: 20
+    SellingPrice: 10
+    effects:
+    - opponent: 0
+      parameter: 19
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: a3b4a38a13397ac48b019e372c977454, type: 3}
+    Name: "\u30C7\u30AB\u30C7\u30AB\u30C9\u30EA\u30F3\u30AF"
+    Description: "\u3059\u3053\u3057\u306E\u9593 \u5473\u65B9\u3092\u300E\u30C7\u30AB\u30C7\u30AB\u300F\u306B\u3057\u3066\n\u3053\u3046\u3052\u304D\u529B\u3092
+      \u30A2\u30C3\u30D7\u3055\u305B\u308B"
+    BuyingPrice: 15
+    SellingPrice: 10
+    effects:
+    - opponent: 0
+      parameter: 22
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: 1ec94f4aa486ed14d9031d9035c5a54c, type: 3}
+    Name: "\u30A4\u30EC\u30AB\u30A8\u30FC\u30EB"
+    Description: "\u5473\u65B9\u306E \uFF28\uFF30\u3068\uFF26\uFF30\u3092 \u3044\u308C\u304B\u3048\u308B\n\u305F\u3060\u3057
+      \u3055\u3044\u3060\u3044\u3061\u306F \u3053\u3048\u306A\u3044"
+    BuyingPrice: 5
+    SellingPrice: 2
+    effects:
+    - opponent: 0
+      parameter: 23
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: 0a90b61bf8bf2844996d53bce98564cd, type: 3}
+    Name: "\u3086\u3089\u3086\u3089\u3058\u3057\u3093"
+    Description: "\u5730\u4E0A\u3068 \u3066\u3093\u3058\u3087\u3046\u306E \u3059\u3079\u3066\u306E\u3066\u304D\u306B\n\u30C0\u30E1\u30FC\u30B8\u3092
+      \u300E\uFF15\u300F\u3042\u305F\u3048\u308B"
+    BuyingPrice: 15
+    SellingPrice: 7
+    effects:
+    - opponent: 2
+      parameter: 4
+      AnimationIndex: 0
+      Force: 5
+  - Image: {fileID: 21300000, guid: 556054985f513bd45a5a0158b196e2dd, type: 3}
+    Name: "\u304B\u307F\u306A\u308A\u30C9\u30C3\u30AB\u30F3"
+    Description: "\u304B\u307F\u306A\u308A\u3092 \u3059\u3079\u3066\u306E\u3066\u304D\u306B
+      \u304A\u3068\u3057\n\u30C0\u30E1\u30FC\u30B8\u3092 \u300E\uFF15\u300F\u3042\u305F\u3048\u308B"
+    BuyingPrice: 15
+    SellingPrice: 10
+    effects:
+    - opponent: 3
+      parameter: 4
+      AnimationIndex: 0
+      Force: 5
+  - Image: {fileID: 21300000, guid: 5ec50d3177e02df46ac71c7d6ff95892, type: 3}
+    Name: "\u304D\u3093\u304B\u3044"
+    Description: 
+    BuyingPrice: 110
+    SellingPrice: 100
+    effects:
+    - opponent: 0
+      parameter: 24
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: 5f1ef579cefcec941b8769946b7f69b7, type: 3}
+    Name: "\u304D\u3093\u304B\u3044\xD73"
+    Description: 
+    BuyingPrice: 350
+    SellingPrice: 300
+    effects:
+    - opponent: 0
+      parameter: 24
+      AnimationIndex: -1
+      Force: 0
+  - Image: {fileID: 21300000, guid: f6126854b5a637b47bccdbb78ec1db75, type: 3}
+    Name: "\u30CF\u30CB\u30FC\u30AD\u30CE\u30B3"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u3068\uFF26\uFF30\u304C
+      \u300E\uFF15\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 10
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 5
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 5
+  - Image: {fileID: 21300000, guid: 008a8575cc0c18341a84252dc593eee2, type: 3}
+    Name: "\u30E1\u30A4\u30D7\u30EB\u30AD\u30CE\u30B3"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF15\u300F \uFF26\uFF30\u304C \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 25
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 5
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: 9267c0ce67dc4a841a6d4101151b78e0, type: 3}
+    Name: "\u30ED\u30FC\u30E4\u30EB\u30AD\u30CE\u30B3"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF15\u300F \uFF26\uFF30\u304C \u300E\uFF15\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 75
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 5
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 50
+  - Image: {fileID: 21300000, guid: 89b03d13763b1074b80c5da1652782a5, type: 3}
+    Name: "\u30D7\u30EC\u30DF\u30A2\u30E0\u30AD\u30CE\u30B3"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF15\u300F \uFF26\uFF30\u304C \u300E\uFF11\uFF10\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 100
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 5
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 100
+  - Image: {fileID: 21300000, guid: 1efa42117efa4be4a92290fcc1c92699, type: 3}
+    Name: "\u30CF\u30CB\u30FC\u30AD\u30CE\u30B3S"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF15\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 20
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 10
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 5
+  - Image: {fileID: 21300000, guid: ed0575869b0cb5a458ba4915280e6438, type: 3}
+    Name: "\u30E1\u30A4\u30D7\u30EB\u30AD\u30CE\u30B3S"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u3068\uFF26\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 35
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 10
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: e583fe3142603944ba19fa9386d25f95, type: 3}
+    Name: "\u30ED\u30FC\u30E4\u30EB\u30AD\u30CE\u30B3S"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF15\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 100
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 10
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 50
+  - Image: {fileID: 21300000, guid: 4f7131a89f733b142a823a7400345555, type: 3}
+    Name: "\u30D7\u30EC\u30DF\u30A2\u30E0\u30AD\u30CE\u30B3S"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF11\uFF10\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 150
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 10
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 100
+  - Image: {fileID: 21300000, guid: 5cdb98abfa5e24449b4a2a623301ee22, type: 3}
+    Name: "\u30CF\u30CB\u30FC\u30AD\u30CE\u30B3Z"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF15\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF15\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 75
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 50
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 5
+  - Image: {fileID: 21300000, guid: a81152e9da34927489ea3a88a52f7cc5, type: 3}
+    Name: "\u30E1\u30A4\u30D7\u30EB\u30AD\u30CE\u30B3Z"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF15\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 100
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 50
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: b3303e6a69eb4ac4293b8e7d7e4dce0d, type: 3}
+    Name: "\u30ED\u30FC\u30E4\u30EB\u30AD\u30CE\u30B3Z"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u3068\uFF26\uFF30\u304C
+      \u300E\uFF15\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 200
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 50
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 50
+  - Image: {fileID: 21300000, guid: ac95b55e6145ef54583cfc6c973ea0f4, type: 3}
+    Name: "\u30D7\u30EC\u30DF\u30A2\u30E0\u30AD\u30CE\u30B3Z"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF15\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF11\uFF10\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 250
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 50
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 100
+  - Image: {fileID: 21300000, guid: 1696d1d2d7306ae46986d43553dff8c3, type: 3}
+    Name: "\u30CF\u30CB\u30FC\u30AD\u30CE\u30B3M"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF15\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 100
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 100
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 5
+  - Image: {fileID: 21300000, guid: 73d856a583465314eb8df0a1c2bd2074, type: 3}
+    Name: "\u30E1\u30A4\u30D7\u30EB\u30AD\u30CE\u30B3M"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF11\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 150
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 100
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 10
+  - Image: {fileID: 21300000, guid: 422cc176a43647044964d33d0818fb2b, type: 3}
+    Name: "\u30ED\u30FC\u30E4\u30EB\u30AD\u30CE\u30B3M"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u304C
+      \u300E\uFF11\uFF10\uFF10\u300F \uFF26\uFF30\u304C \u300E\uFF15\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 250
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 100
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 50
+  - Image: {fileID: 21300000, guid: d1426d44d63d8b34f9649daeb6020fc0, type: 3}
+    Name: "\u30D7\u30EC\u30DF\u30A2\u30E0\u30AD\u30CE\u30B3M"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u30C7\u30B6\u30FC\u30C8\n\uFF28\uFF30\u3068\uFF26\uFF30\u304C
+      \u300E\uFF11\uFF10\uFF10\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 350
+    effects:
+    - opponent: 0
+      parameter: 0
+      AnimationIndex: -1
+      Force: 100
+    - opponent: 0
+      parameter: 1
+      AnimationIndex: -1
+      Force: 100
+  - Image: {fileID: 21300000, guid: fdc2e59ec1db26e40b36f1c1a7084c49, type: 3}
+    Name: "\u3069\u304F\u30AD\u30CE\u30B3"
+    Description: "\u25CB\u25CB\u25CB\u304C \u3064\u304F\u3063\u305F \u30AD\u30CE\u30B3\u306E\u308A\u3087\u3046\u308A\n\u305F\u3079\u308B\u3068
+      \u3069\u304F\u3092 \u3046\u3051\u308B"
+    BuyingPrice: 0
+    SellingPrice: 200
+    effects:
+    - opponent: 0
+      parameter: 13
+      AnimationIndex: -1
+      Force: 0

@@ -1,0 +1,1293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257e4206ee430b943a53db0e3197a99d, type: 3}
+  m_Name: BadgeData
+  m_EditorClassIdentifier: 
+  data:
+  - Image: {fileID: 21300000, guid: c05f0d5131fc11b42b83a954804e3377, type: 3}
+    Name: "\u30AC\u30C4\u30FC\u30F3\u30B8\u30E3\u30F3\u30D7"
+    Description: "\u5927\u304D\u306A \u3053\u3046\u3052\u304D\u529B\u3067 \u3066\u304D\u3092
+      \u3075\u307F\u3064\u3051\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 34
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 3432dfb65638f6841b2b444b5d8a1e6b, type: 3}
+    Name: "\u30C4\u30AE\u30C4\u30AE\u30B8\u30E3\u30F3\u30D7"
+    Description: "\u30A2\u30AF\u30B7\u30E7\u30F3\u30B3\u30DE\u30F3\u30C9\u3092 \u30DF\u30B9\u3059\u308B\u307E\u3067\n\u3066\u304D\u3092
+      \u3058\u3085\u3093\u3070\u3093\u306B \u3053\u3046\u3052\u304D\u3067\u304D\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 50
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 5d0fd939a35ac504ab59798c8630bb6f, type: 3}
+    Name: "\u30DF\u30CB\u30DF\u30CB\u30D5\u30DF\u30A3"
+    Description: "\u3046\u307E\u304F\u3044\u304F\u3068 \u3066\u304D\u3092 \u300E\u30DF\u30CB\u30DF\u30CB\u300F\u306B\u3057\u3066\n\u3059\u3053\u3057\u306E\u9593
+      \u3053\u3046\u3052\u304D\u529B\u3092 \u30C0\u30A6\u30F3\u3055\u305B\u308B"
+    BuyingPrice: 75
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 4
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 0378d8e21e7b2924a98f45ff955858e6, type: 3}
+    Name: "\u30CD\u30E0\u30E9\u30BB\u30D5\u30DF\u30A3"
+    Description: "\u3046\u307E\u304F\u3044\u304F\u3068 \u3066\u304D\u3092 \u300E\u306D\u3080\u308A\u300F\u306B\u3057\u3066\n\u3059\u3053\u3057\u306E\u9593
+      \u52D5\u3051\u306A\u304F\u3059\u308B"
+    BuyingPrice: 75
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 1
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: da866641fed988d41ad2d69b997200b1, type: 3}
+    Name: "\u30D5\u30CB\u30E3\u30D5\u30CB\u30E3\u30D5\u30DF\u30A3"
+    Description: "\u3046\u307E\u304F\u3044\u304F\u3068 \u3066\u304D\u3092 \u300E\u30D5\u30CB\u30E3\u30D5\u30CB\u30E3\u300F\u306B\u3057\u3066\n\u3059\u3053\u3057\u306E\u9593
+      \u52D5\u3051\u306A\u304F\u3059\u308B"
+    BuyingPrice: 75
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 6
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 405eaf62656125544bc1bb110d83e41f, type: 3}
+    Name: "\u30BF\u30C4\u30DE\u30AD\u30B8\u30E3\u30F3\u30D7"
+    Description: "\u3046\u307E\u304F\u3044\u304F\u3068 \u7A7A\u4E2D\u306E \u3059\u3079\u3066\u306E\u3066\u304D\u306B\u3082\n\u30C0\u30E1\u30FC\u30B8\u3092
+      \u3042\u305F\u3048\u3089\u308C\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 67
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 8086be3557dad4841bebc6084231cf82, type: 3}
+    Name: "\u30EC\u30F3\u30BE\u30AF\u30B8\u30E3\u30F3\u30D7"
+    Description: "\u30A2\u30AF\u30B7\u30E7\u30F3\u30B3\u30DE\u30F3\u30C9\u3092 \u30DF\u30B9\u3059\u308B\u307E\u3067\n\u3066\u304D\u3092
+      \u308C\u3093\u305E\u304F\u3067 \u3053\u3046\u3052\u304D\u3067\u304D\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 63d8282599d7fc14ab4c6519b2b926fe, type: 3}
+    Name: "\u30AC\u30C4\u30FC\u30F3\u30CA\u30B0\u30FC\u30EA"
+    Description: "\u5927\u304D\u306A \u3053\u3046\u3052\u304D\u529B\u3067 \u3066\u304D\u3092
+      \u306A\u3050\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: c5dd4ec1df5e4c846ae20e799512ece7, type: 3}
+    Name: "\u30C4\u30E9\u30CC\u30AD\u30CA\u30B0\u30FC\u30EA"
+    Description: "\u3066\u304D\u306E \u307C\u3046\u304E\u3087\u529B\u3092 \u30E0\u30B7\u3057\u305F\n\u30C0\u30E1\u30FC\u30B8\u3092
+      \u3042\u305F\u3048\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: bfd4785931aa3b84988cabe38e69c1dc, type: 3}
+    Name: "\u30CF\u30F3\u30DE\u30FC\u30CA\u30B2\u30FC\u30EB"
+    Description: "\u3069\u306E\u5834\u6240\u306E \u3066\u304D\u3067\u3082\n\u30CF\u30F3\u30DE\u30FC\u3092
+      \u306A\u3052\u3066 \u3053\u3046\u3052\u304D\u3067\u304D\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 55015a8aa02c51141a16b1a4256178a5, type: 3}
+    Name: "\u30B3\u30F3\u30E9\u30F3\u30CA\u30B0\u30FC\u30EA"
+    Description: "\u3046\u307E\u304F\u3044\u304F\u3068 \u3066\u304D\u3092 \u300E\u3053\u3093\u3089\u3093\u300F\u306B\u3057\u3066\n\u3059\u3053\u3057\u306E\u9593
+      \u304A\u3082\u3044\u3069\u304A\u308A\u306B \u52D5\u3051\u306A\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 3
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: efe20e5b157f4b741a8d0afc2d01aa1d, type: 3}
+    Name: "\u30A2\u30A4\u30B9\u30CA\u30B0\u30FC\u30EA"
+    Description: "\u3046\u307E\u304F\u3044\u304F\u3068 \u3066\u304D\u3092 \u300E\u3053\u304A\u308A\u300F\u306B\u3057\u3066\n\u3059\u3053\u3057\u306E\u9593
+      \u52D5\u3051\u306A\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 8
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: e68d291509fcf7b40b6ed6cb32b11d4a, type: 3}
+    Name: "\u30B8\u30B7\u30FC\u30F3\u30A2\u30BF\u30C3\u30AF"
+    Description: "\u5730\u4E0A\u3068 \u3066\u3093\u3058\u3087\u3046\u306E \u3059\u3079\u3066\u306E\u3066\u304D\u306B\n\u30C0\u30E1\u30FC\u30B8\u3092
+      \u3042\u305F\u3048\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: ed03e0b8d39e7a7479ac66a3b1374f6f, type: 3}
+    Name: "\u30D5\u30A1\u30A4\u30A2\u30CA\u30B0\u30FC\u30EA"
+    Description: "\u5730\u4E0A\u306E \u3059\u3079\u3066\u306E\u3066\u304D\u3092 \u3053\u3046\u3052\u304D\u3057\u3066\n\u304A\u307E\u3051\u306B
+      \u300E\u307B\u306E\u304A\u300F\u306B\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 0
+      ability: 7
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 90a542c84ef3f8e47abacc96e194755d, type: 3}
+    Name: "\u30C1\u30E3\u30FC\u30B8"
+    Description: "\u30DE\u30EA\u30AA\u306E \u300E\u3055\u304F\u305B\u3093\u300F\u304B\u3089\n\u300E\u30C1\u30E3\u30FC\u30B8\u300F\u304C
+      \u9078\u3079\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 3
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: ebf62b2ba38d88b4e9850464de775c95, type: 3}
+    Name: "\u30C1\u30E3\u30FC\u30B8P"
+    Description: "\u30DE\u30EA\u30AA\u306E \u300E\u3055\u304F\u305B\u3093\u300F\u304B\u3089\n\u300E\u30C1\u30E3\u30FC\u30B8\u300F\u304C
+      \u9078\u3079\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 3
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: fe7f90624501dbc46bf3946ac6faaf13, type: 3}
+    Name: "\u30CB\u30AB\u30A4\u30A2\u30A4\u30C6\u30FC\u30E0"
+    Description: "\u30A2\u30A4\u30C6\u30E0\u3092 \u3044\u3061\u3069\u306B \uFF12\u3064
+      \u4F7F\u3046\u3053\u3068\u304C\u3067\u304D\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 2
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 3da57daaa1f57634fa72618e84b8c558, type: 3}
+    Name: "\u30CB\u30AB\u30A4\u30A2\u30A4\u30C6\u30FC\u30E0P"
+    Description: "\u30A2\u30A4\u30C6\u30E0\u3092 \u3044\u3061\u3069\u306B \uFF12\u3064
+      \u4F7F\u3046\u3053\u3068\u304C\u3067\u304D\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 2
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 25154967fc1963a45b1d3c2e7978b569, type: 3}
+    Name: "\u30CF\u30FC\u30C8\u30D5\u30A8\u30FC\u30EB"
+    Description: "\u30DE\u30EA\u30AA\u306E\uFF28\uFF30\u306E \u3055\u3044\u3060\u3044\u3061\u304C
+      \u300E\uFF15\u300F\u3075\u3048\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 100
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 6
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 5
+  - Image: {fileID: 21300000, guid: 21ef096e20ac86841acd99568b6ddb9d, type: 3}
+    Name: "\u30CF\u30FC\u30C8\u30D5\u30A8\u30FC\u30EBP"
+    Description: "\u306A\u304B\u307E\u306E\uFF28\uFF30\u306E \u3055\u3044\u3060\u3044\u3061\u304C
+      \u300E\uFF15\u300F\u3075\u3048\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 6
+    PiantaAmounts: 200
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 10
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 5
+  - Image: {fileID: 21300000, guid: d35b0b6918402d545b60977c6cca4ded, type: 3}
+    Name: "\u30D5\u30E9\u30EF\u30FC\u30D5\u30A8\u30FC\u30EB"
+    Description: "\uFF26\uFF30\u306E \u3055\u3044\u3060\u3044\u3061\u304C \u300E\uFF15\u300F\u3075\u3048\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 100
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 9
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 5
+  - Image: {fileID: 21300000, guid: 3bd1a7773646f1549be1900ecf9544a9, type: 3}
+    Name: "\u30D1\u30EF\u30FC\u30D7\u30E9\u30B9"
+    Description: "\u30DE\u30EA\u30AA\u306E \u30B8\u30E3\u30F3\u30D7\u3068 \u30CF\u30F3\u30DE\u30FC\u306E\n\u3053\u3046\u3052\u304D\u529B\u304C
+      \u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 6
+    PiantaAmounts: 0
+    StarPieceAmounts: 15
+    effects:
+    - parameter: 7
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 8668e5358e0d6974fb74b831def3e3cf, type: 3}
+    Name: "\u30D1\u30EF\u30FC\u30D7\u30E9\u30B9P"
+    Description: "\u306A\u304B\u307E\u306E \u3053\u3046\u3052\u304D\u529B\u304C \u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 6
+    PiantaAmounts: 0
+    StarPieceAmounts: 15
+    effects:
+    - parameter: 11
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: c9412abeb1435bb4e963ddb2ac881c15, type: 3}
+    Name: "\u30A4\u30C1\u30AB\u30D0\u30C1\u30FC\u30AB"
+    Description: "\u30DE\u30EA\u30AA\u306E \u30A2\u30AF\u30B7\u30E7\u30F3\u30B3\u30DE\u30F3\u30C9
+      \u305B\u3044\u3053\u3046\u3067\n\u3053\u3046\u3052\u304D\u529B\u304C \u30A2\u30C3\u30D7
+      \u3057\u3063\u3071\u3044\u306A\u3089 \u300E\uFF10\u300F"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 4
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 4
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+    - parameter: 7
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: d555b86683af5db428f8fe8c62cf059e, type: 3}
+    Name: "\u30B8\u30E3\u30F3\u30D7\u30C0\u30B1\u30FC\u30E8"
+    Description: 
+    BuyingPrice: 180
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 0
+      situation: 1
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: e3d5b250aec16124f920d87dedaad614, type: 3}
+    Name: "\u30CF\u30F3\u30DE\u30FC\u30C0\u30B1\u30FC\u30E8"
+    Description: 
+    BuyingPrice: 180
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 1
+      situation: 1
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 439f630ceaf80134cbf9de0a243379e1, type: 3}
+    Name: "\u30E2\u30ED\u30CF\u30CE\u30E4\u30A4\u30D0\u30FC"
+    Description: "\u30DE\u30EA\u30AA\u306E \u3053\u3046\u3052\u304D\u529B\u304C \u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B\u304C\n\u307C\u3046\u304E\u3087\u529B\u304C
+      \u300E\uFF11\u300F\u30C0\u30A6\u30F3\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 7
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+    - parameter: 8
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+  - Image: {fileID: 21300000, guid: 9b85e78c8a6194e4c837e1b3138b01cd, type: 3}
+    Name: "\u30E2\u30ED\u30CF\u30CE\u30E4\u30A4\u30D0\u30FCP"
+    Description: "\u306A\u304B\u307E\u306E \u3053\u3046\u3052\u304D\u529B\u304C \u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B\u304C\n\u307C\u3046\u304E\u3087\u529B\u304C
+      \u300E\uFF11\u300F\u30C0\u30A6\u30F3\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 11
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+    - parameter: 12
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+  - Image: {fileID: 21300000, guid: 55694ce05b7f6f540a83cad42a27f156, type: 3}
+    Name: "\u30CA\u30DE\u30AF\u30E9\u30E4\u30A4\u30D0\u30FC"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3042\u305F\u3048\u308B\u30C0\u30E1\u30FC\u30B8\u304C
+      \u300E\uFF11\u300F\u3078\u308B\u304C\n\u3066\u304D\u304B\u3089 \u3046\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u3082
+      \u300E\uFF11\u300F\u3078\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 7
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+    - parameter: 8
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: d5759681285ae57499787cf8707c64a1, type: 3}
+    Name: "\u30CA\u30DE\u30AF\u30E9\u30E4\u30A4\u30D0\u30FCP"
+    Description: "\u306A\u304B\u307E\u304C \u3042\u305F\u3048\u308B\u30C0\u30E1\u30FC\u30B8\u304C
+      \u300E\uFF11\u300F\u3078\u308B\u304C\n\u3066\u304D\u304B\u3089 \u3046\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u3082
+      \u300E\uFF11\u300F\u3078\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 11
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+    - parameter: 12
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 748f20918b432ee4fb4ada237628663e, type: 3}
+    Name: "\u30CA\u30A4\u30B9\u30C7\u30DC\u30A6\u30AE\u30E7"
+    Description: "\u30DE\u30EA\u30AA\u304C \u30AC\u30FC\u30C9\u306E \u30A2\u30AF\u30B7\u30E7\u30F3\u30B3\u30DE\u30F3\u30C9\u3092\n\u305B\u3044\u3053\u3046\u3059\u308B\u3068
+      \u307C\u3046\u304E\u3087\u529B\u304C\u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 150
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 5
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 5619c5366b8d73246bf625ce1d869241, type: 3}
+    Name: "\u30CA\u30A4\u30B9\u30C7\u30DC\u30A6\u30AE\u30E7P"
+    Description: "\u306A\u304B\u307E\u304C \u30AC\u30FC\u30C9\u306E \u30A2\u30AF\u30B7\u30E7\u30F3\u30B3\u30DE\u30F3\u30C9\u3092\n\u305B\u3044\u3053\u3046\u3059\u308B\u3068
+      \u307C\u3046\u304E\u3087\u529B\u304C\u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 150
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 34
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 1b476e7289618014587ff6f3020706c1, type: 3}
+    Name: "\u30DC\u30A6\u30AE\u30E7\u30D7\u30E9\u30B9"
+    Description: "\u30DE\u30EA\u30AA\u306E \u307C\u3046\u304E\u3087\u529B\u304C \u300E\uFF11\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 5
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 8
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 5c21b8dd51f0b6b46bdb1d5b3257fdb0, type: 3}
+    Name: "\u30DC\u30A6\u30AE\u30E7\u30D7\u30E9\u30B9P"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 5
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 12
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 3f999b966a9306f46bfa59ad2ee4e60b, type: 3}
+    Name: "\u30CB\u30D0\u30A4\u30C0\u30E1\u30FC\u30B8"
+    Description: 
+    BuyingPrice: 36
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 15
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 7efa3b31221ae5e4f9e8a46a487fdec8, type: 3}
+    Name: "\u30D4\u30F3\u30C1\u30C7\u30AC\u30F3\u30D0\u30EB"
+    Description: "\u30DE\u30EA\u30AA\u304C \u300E\u30D4\u30F3\u30C1\u300F\u306B\u306A\u308B\u3068\n\u3053\u3046\u3052\u304D\u529B\u304C
+      \u300E\uFF12\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 34
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 7
+      situation: 2
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: 3e02e01fd70b4cb48bc6f4d132dcddc8, type: 3}
+    Name: "\u30D4\u30F3\u30C1\u30C7\u30AC\u30F3\u30D0\u30EBP"
+    Description: "\u306A\u304B\u307E\u304C \u300E\u30D4\u30F3\u30C1\u300F\u306B\u306A\u308B\u3068\n\u3053\u3046\u3052\u304D\u529B\u304C
+      \u300E\uFF12\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 34
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 11
+      situation: 2
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: 7235451cf00dd394ba0a30ac70fe938e, type: 3}
+    Name: "\u30D4\u30F3\u30C1\u30C7\u30DE\u30E2\u30FC\u30EB"
+    Description: "\u30DE\u30EA\u30AA\u304C \u300E\u30D4\u30F3\u30C1\u300F\u306B\u306A\u308B\u3068\n\u3046\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C
+      \uFF11\uFF0F\uFF12\u306B\u306A\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 15
+      situation: 2
+      ability: 0
+      fieldSituation: 0
+      force: -1
+  - Image: {fileID: 21300000, guid: b802687feefba6745af36fb34fd33d05, type: 3}
+    Name: "\u30D4\u30F3\u30C1\u30C7\u30DE\u30E2\u30FC\u30EBP"
+    Description: "\u306A\u304B\u307E\u304C \u300E\u30D4\u30F3\u30C1\u300F\u306B\u306A\u308B\u3068\n\u3046\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C
+      \uFF11\uFF0F\uFF12\u306B\u306A\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 31
+      situation: 2
+      ability: 0
+      fieldSituation: 0
+      force: -1
+  - Image: {fileID: 21300000, guid: 159a2ba5b3c67ed408f867073d9572cc, type: 3}
+    Name: "\u30AD\u30B1\u30F3\u30C7\u30D1\u30EF\u30FC"
+    Description: "\u30DE\u30EA\u30AA\u304C \u300E\u30AD\u30B1\u30F3\uFF01\u300F\u306B\u306A\u308B\u3068\n\u3053\u3046\u3052\u304D\u529B\u304C
+      \u300E\uFF15\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 60
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 7
+      situation: 3
+      ability: 0
+      fieldSituation: 0
+      force: 5
+  - Image: {fileID: 21300000, guid: 7fd893e38a5d85146ba0dafb1364fc8d, type: 3}
+    Name: "\u30AD\u30B1\u30F3\u30C7\u30D1\u30EF\u30FCP"
+    Description: "\u306A\u304B\u307E\u304C \u300E\u30AD\u30B1\u30F3\uFF01\u300F\u306B\u306A\u308B\u3068\n\u3053\u3046\u3052\u304D\u529B\u304C
+      \u300E\uFF15\u300F\u30A2\u30C3\u30D7\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 11
+      situation: 3
+      ability: 0
+      fieldSituation: 0
+      force: 5
+  - Image: {fileID: 21300000, guid: 2a4d26a58b45e1c4e9ba4abc876144ed, type: 3}
+    Name: "\u30D4\u30F3\u30C1\u30C7\u30E9\u30C3\u30AD\u30FC"
+    Description: "\u30DE\u30EA\u30AA\u304C \u300E\u30D4\u30F3\u30C1\u300F\u306B\u306A\u308B\u3068
+      \u3068\u304D\u3069\u304D\n\u3066\u304D\u304C \u3053\u3046\u3052\u304D\u3092
+      \u30DF\u30B9\u3059\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 100
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 16
+      situation: 2
+      ability: 0
+      fieldSituation: 0
+      force: 25
+  - Image: {fileID: 21300000, guid: fcdce747780a0704d9e6fd494ca401ee, type: 3}
+    Name: "\u30D4\u30F3\u30C1\u30C7\u30E9\u30C3\u30AD\u30FCP"
+    Description: "\u306A\u304B\u307E\u304C \u300E\u30D4\u30F3\u30C1\u300F\u306B\u306A\u308B\u3068
+      \u3068\u304D\u3069\u304D\n\u3066\u304D\u304C \u3053\u3046\u3052\u304D\u3092
+      \u30DF\u30B9\u3059\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 100
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 17
+      situation: 2
+      ability: 0
+      fieldSituation: 0
+      force: 25
+  - Image: {fileID: 21300000, guid: 35a6f7177d9d8a941b5fafc6acc4675b, type: 3}
+    Name: "\u30BF\u30DE\u30FC\u30CB\u30E9\u30C3\u30AD\u30FC"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3055\u308C\u308B\u6642\n\u305F\u307E\u306B
+      \u3066\u304D\u304C \u30DF\u30B9\u3059\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 3
+    effects:
+    - parameter: 16
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 10
+  - Image: {fileID: 21300000, guid: df3e72237a6cf8c4b9fb1e11a9f50366, type: 3}
+    Name: "\u30BF\u30DE\u30FC\u30CB\u30E9\u30C3\u30AD\u30FCP"
+    Description: "\u306A\u304B\u307E\u304C \u3053\u3046\u3052\u304D\u3055\u308C\u308B\u6642\n\u305F\u307E\u306B
+      \u3066\u304D\u304C \u30DF\u30B9\u3059\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 150
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 17
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 10
+  - Image: {fileID: 21300000, guid: 3fab0f4c6d44a924da5f6ca9e5c8e83d, type: 3}
+    Name: "\u30B1\u30C3\u30B3\u30A6\u30E9\u30C3\u30AD\u30FC"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 7
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 16
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 20
+    - parameter: 17
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 20
+  - Image: {fileID: 21300000, guid: f1c379fdac5ba7c4c840a043cf5197bf, type: 3}
+    Name: "\u30CA\u30CB\u30FC\u30AB\u30E9\u30C3\u30AD\u30FC"
+    Description: "\u30D0\u30C8\u30EB\u306B \u5165\u3063\u305F\u3068\u304D\u306B \u306A\u306B\u304B\n\u3044\u3044\u3053\u3068\u304C
+      \u304A\u3053\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 4
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 32
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 5fd9f4cab0758704ead4fe30aa803bc3, type: 3}
+    Name: "\u30CF\u30C3\u30D4\u30FC\u30CF\u30FC\u30C8"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u30DE\u30EA\u30AA\u306E\uFF28\uFF30\u3092
+      \u3059\u3053\u3057\u305A\u3064\n\u3058\u3069\u3046\u3066\u304D\u306B \u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 4
+    effects:
+    - parameter: 18
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 797d0be09c2bc554fbb1a36e7f2374a3, type: 3}
+    Name: "\u30CF\u30C3\u30D4\u30FC\u30CF\u30FC\u30C8P"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u306A\u304B\u307E\u306E\uFF28\uFF30\u3092
+      \u3059\u3053\u3057\u305A\u3064\n\u3058\u3069\u3046\u3066\u304D\u306B \u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 4
+    effects:
+    - parameter: 19
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 7c5a16aeb228cc84d9f50016bcef5e1c, type: 3}
+    Name: "\u30CF\u30C3\u30D4\u30FC\u30D5\u30E9\u30EF\u30FC"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \uFF26\uFF30\u3092 \u3059\u3053\u3057\u305A\u3064\n\u3058\u3069\u3046\u3066\u304D\u306B
+      \u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 150
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 4
+    effects:
+    - parameter: 20
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 0d55e80d988595240828ea1ced8d1fde, type: 3}
+    Name: "\u30D5\u30E9\u30EF\u30FC\u30BB\u30C4\u30E4\u30AF"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\n\u4F7F\u3046\uFF26\uFF30\u3092
+      \u300E\uFF11\u300F\u3078\u3089\u305B\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 4
+    PiantaAmounts: 0
+    StarPieceAmounts: 10
+    effects:
+    - parameter: 21
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+  - Image: {fileID: 21300000, guid: 4a1e4629fc4482640bd0c3a26cb018e5, type: 3}
+    Name: "\u30D5\u30E9\u30EF\u30FC\u30BB\u30C4\u30E4\u30AFP"
+    Description: "\u306A\u304B\u307E\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\n\u4F7F\u3046\uFF26\uFF30\u3092
+      \u300E\uFF11\u300F\u3078\u3089\u305B\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 4
+    PiantaAmounts: 0
+    StarPieceAmounts: 10
+    effects:
+    - parameter: 22
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+  - Image: {fileID: 21300000, guid: 33e6c27715035484b9168c1d14f96c46, type: 3}
+    Name: "\u30C0\u30E1\u30FC\u30B8\u30D5\u30E9\u30EF\u30FC"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u30DE\u30EA\u30AA\u304C \u30C0\u30E1\u30FC\u30B8\u3092
+      \u3046\u3051\u308B\u3068\n\u3068\u304D\u3069\u304D \uFF26\uFF30\u304C \u300E\uFF11\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 20
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: 4acf37892528b944c8c4574d1fd13baf, type: 3}
+    Name: "\u30CF\u30FC\u30C8\u30B9\u30A4\u30C8\u30FC\u30EB"
+    Description: "\u30DE\u30EA\u30AA\u306E \u3053\u3046\u3052\u304D\u529B\u304C \u300E\uFF11\u300F\u30C0\u30A6\u30F3\u3059\u308B\u304C\n\u3053\u3046\u3052\u304D\u306E\u305F\u3073\u306B
+      \uFF28\uFF30\u304C \u300E\uFF11\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 7
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+    - parameter: 18
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 36ad5cc205c5c59439cae2875895c7be, type: 3}
+    Name: "\u30CF\u30FC\u30C8\u30B9\u30A4\u30C8\u30FC\u30EBP"
+    Description: "\u306A\u304B\u307E\u306E \u3053\u3046\u3052\u304D\u529B\u304C \u300E\uFF11\u300F\u30C0\u30A6\u30F3\u3059\u308B\u304C\n\u3053\u3046\u3052\u304D\u306E\u305F\u3073\u306B
+      \uFF28\uFF30\u304C \u300E\uFF11\u300F\u304B\u3044\u3075\u304F\u3059\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 11
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+    - parameter: 19
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 292f37c9770301a45af0ec3b7156a5f8, type: 3}
+    Name: "\u30D5\u30E9\u30EF\u30FC\u30B9\u30A4\u30C8\u30FC\u30EB"
+    Description: 
+    BuyingPrice: 100
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 7
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: -1
+    - parameter: 20
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: f0ac144ca7db79b47b8a6dfceb05aa79, type: 3}
+    Name: "\u30CF\u30FC\u30C8\u30C7\u30FC\u30EB"
+    Description: "\u30D0\u30C8\u30EB\u5F8C\u306B \u51FA\u308B \u30CF\u30FC\u30C8\u304C\n\u3044\u3064\u3082\u3088\u308A
+      \u304A\u304A\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 6
+    effects:
+    - parameter: 23
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: e905dd4e6b86b684d955df92eb567fef, type: 3}
+    Name: "\u30D5\u30E9\u30EF\u30FC\u30C7\u30FC\u30EB"
+    Description: "\u30D0\u30C8\u30EB\u5F8C\u306B \u51FA\u308B \u30D5\u30E9\u30EF\u30FC\u304C\n\u3044\u3064\u3082\u3088\u308A
+      \u304A\u304A\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 6
+    effects:
+    - parameter: 24
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: 043b95f152844e6449f0f4c24bef4cf4, type: 3}
+    Name: "\u30A2\u30A4\u30C6\u30E0\u30C7\u30FC\u30EB"
+    Description: "\u30D0\u30C8\u30EB\u5F8C\u306B \u30A2\u30A4\u30C6\u30E0\u304C \u51FA\u3084\u3059\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 3
+    PiantaAmounts: 0
+    StarPieceAmounts: 5
+    effects:
+    - parameter: 14
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 50
+  - Image: {fileID: 21300000, guid: 56ab8db77eddcad4ba136adf2687bf1f, type: 3}
+    Name: "\u30A2\u30A4\u30B9\u30CE\u30C1\u30AB\u30FC\u30E9"
+    Description: "\u706B\u306E\u3066\u304D\u3092 \u3075\u3093\u3067\u3082 \u30C0\u30E1\u30FC\u30B8\u3092\n\u3046\u3051\u306A\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 9
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 1a8e66acf3bd3324db4a0f6a56c52bf9, type: 3}
+    Name: "\u30C8\u30B2\u30FC\u30F2\u30AC\u30FC\u30C9"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 10
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 9716607490f08744099c69a5fb178141, type: 3}
+    Name: "\u30D3\u30EA\u30D3\u30EA\u30FC\u30F3"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u30DE\u30EA\u30AA\u306B \u3075\u308C\u305F
+      \u3066\u304D\u306B\n\u30C0\u30E1\u30FC\u30B8\u3092 \u3042\u305F\u3048\u308B\u3053\u3068\u304C
+      \u3067\u304D\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 11
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: a126d5821d6471c4eabdebec1ca8251c, type: 3}
+    Name: "\u30C0\u30E1\u30FC\u30B8\u30AC\u30A8\u30B7"
+    Description: "\u30DE\u30EA\u30AA\u3092 \u3061\u3087\u304F\u305B\u3064 \u3053\u3046\u3052\u304D\u3057\u3066\u304D\u305F\n\u3066\u304D\u306B
+      \u30C0\u30E1\u30FC\u30B8\u306E\uFF11\uFF0F\uFF12\u3092 \u3042\u305F\u3048\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 7
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 12
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 2624868cfcdb1c043b430fe592ac4671, type: 3}
+    Name: "\u30A4\u30C4\u30FC\u30E2\u30B2\u30F3\u30AD"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3066\u304D\u306E \u3053\u3046\u3052\u304D\u3092
+      \u3046\u3051\u305F\u6642\n\u300E\u3069\u304F\u300F\u3084 \u300E\u30B0\u30EB\u30B0\u30EB\u300F\u306A\u3069\u306B
+      \u306A\u3089\u306A\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 4
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 4
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 2b5d4fab08bf2b7418bb3bacba015350, type: 3}
+    Name: "\u30A4\u30C4\u30FC\u30E2\u30B2\u30F3\u30ADP"
+    Description: "\u306A\u304B\u307E\u304C \u3066\u304D\u306E \u3053\u3046\u3052\u304D\u3092
+      \u3046\u3051\u305F\u6642\n\u300E\u3069\u304F\u300F\u3084 \u300E\u30B0\u30EB\u30B0\u30EB\u300F\u306A\u3069\u306B
+      \u306A\u3089\u306A\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 4
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 5
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: f47fd90f22a0f274db2cac06c89bc268, type: 3}
+    Name: "\u30B3\u30A4\u30F3\u30E2\u30C9\u30FC\u30EB"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u30A2\u30A4\u30C6\u30E0\u3092 \u3064\u304B\u3046\u3068\n\u30B3\u30A4\u30F3\u304C
+      \u3044\u304F\u3089\u304B \u3082\u3069\u3063\u3066\u304F\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 34
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 25
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: d0d6318bfd3bda049805b0922babffb3, type: 3}
+    Name: "\u30B3\u30A4\u30F3\u30B3\u30A4\u30F3"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 5
+    PiantaAmounts: 234
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 13
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: acb19e37357b91845a33b96c4157796b, type: 3}
+    Name: "\u30B9\u30FC\u30D1\u30FC\u30A2\u30D4\u30FC\u30EB"
+    Description: 
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 34
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 26
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: 6ec24c6fb29c7e645834b834682ef67e, type: 3}
+    Name: "\u30B9\u30FC\u30D1\u30FC\u30A2\u30D4\u30FC\u30EBP"
+    Description: 
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 27
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: 86ec44102c88b154fa47d9a9694b77f7, type: 3}
+    Name: "HP\u30DF\u30A8\u30FC\u30EB"
+    Description: "\u3066\u304D\u306E \uFF28\uFF30\u304C \u308F\u304B\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 2
+    PiantaAmounts: 0
+    StarPieceAmounts: 7
+    effects:
+    - parameter: 28
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 99c5352b29c78d34eb5c6046b683f2a1, type: 3}
+    Name: "\u30B9\u30D0\u30E4\u30AF\u30AB\u30EF\u30FC\u30EB"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u300E\u306A\u304B\u307E\u30C1\u30A7\u30F3\u30B8\u300F\u3057\u305F\u5F8C\u3082\n\u305D\u306E\u307E\u307E
+      \u884C\u52D5\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 7
+    PiantaAmounts: 0
+    StarPieceAmounts: 8
+    effects:
+    - parameter: 29
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: cfeca51d2afdc6d4e9a58753e6aea320, type: 3}
+    Name: "\u30A2\u30AF\u30ED\u30D0\u30C3\u30C8\u30EF\u30AB\u30EB"
+    Description: "\u30D0\u30C8\u30EB\u4E2D \u300E\u306A\u304B\u307E\u30C1\u30A7\u30F3\u30B8\u300F\u3057\u305F\u5F8C\u3082\n\u305D\u306E\u307E\u307E
+      \u884C\u52D5\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 120
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 30
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: a6cc90a6e0478ba46a60c5bbbe4607bd, type: 3}
+    Name: "\u30AB\u30F3\u30BF\u30F3\u30CB\u30CA\u30FC\u30EB"
+    Description: "\u30A2\u30AF\u30B7\u30E7\u30F3\u30B3\u30DE\u30F3\u30C9\u304C \u304B\u3093\u305F\u3093\u306B\u306A\u308B\u304C\n\u89B3\u5BA2\u304C\u51FA\u3059
+      \u30B9\u30BF\u30FC\u30D1\u30EF\u30FC\u304C \u3059\u304F\u306A\u304F\u306A\u308B"
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 4
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 2
+  - Image: {fileID: 21300000, guid: e84050fb5f08d2f48be0d59b6de910da, type: 3}
+    Name: "\u30E0\u30BA\u30AB\u30B7\u30AF\u30CA\u30FC\u30EB"
+    Description: 
+    BuyingPrice: 50
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 4
+      situation: 0
+      ability: 0
+      fieldSituation: 0
+      force: 1
+  - Image: {fileID: 21300000, guid: 7a48bc723da9c924d8f40c735dea61e0, type: 3}
+    Name: "\u30BB\u30F3\u30BB\u30A4\u30B5\u30EC\u30CA\u30A4"
+    Description: "\u305B\u3093\u305B\u3044\u3053\u3046\u3052\u304D\u3092 \u3055\u308C\u306A\u304F\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 2
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 0
+      fieldSituation: 1
+      force: 0
+  - Image: {fileID: 21300000, guid: 22dd696d295d7044a99c6ca3526d3885, type: 3}
+    Name: "\u30E4\u30C3\u30C4\u30B1\u30A2\u30BF\u30C3\u30AF"
+    Description: 
+    BuyingPrice: 100
+    SellingPrice: 0
+    BPNeeded: 1
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 0
+      fieldSituation: 2
+      force: 0
+  - Image: {fileID: 21300000, guid: fec18cf3ae3ca2345bba1ecb25d462cf, type: 3}
+    Name: "\u30E4\u30C3\u30C4\u30B1\u30FC\u30EC"
+    Description: 
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 5
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 0
+      fieldSituation: 3
+      force: 0
+  - Image: {fileID: 21300000, guid: ecfafd422a6b2d84db8cad67e0493a48, type: 3}
+    Name: "\u30D4\u30C3\u30AD\u30E7\u30ED\u30FC\u30F3A"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\u306B\n\u3007\u3007\u3007\u304C
+      \u306A\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 13
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 492660b8aee4fae48b9f4ef465889e3d, type: 3}
+    Name: "\u30D4\u30C3\u30AD\u30E7\u30ED\u30FC\u30F3B"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\u306B\n\u3007\u3007\u3007\u304C
+      \u306A\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 1
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 14
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 728039b155f81014c91fe4b16086442e, type: 3}
+    Name: "\u30D4\u30C3\u30AD\u30E7\u30ED\u30FC\u30F3C"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\u306B\n\u3007\u3007\u3007\u304C
+      \u306A\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 0
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 15
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: 6e613a0db56d8cf41a6e6b255817a6eb, type: 3}
+    Name: "\u30D4\u30C3\u30AD\u30E7\u30ED\u30FC\u30F3D"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\u306B\n\u3007\u3007\u3007\u304C
+      \u306A\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 120
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 16
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: bb9656c9c369b2e40bff84395892c027, type: 3}
+    Name: "\u30D4\u30C3\u30AD\u30E7\u30ED\u30FC\u30F3E"
+    Description: "\u30DE\u30EA\u30AA\u304C \u3053\u3046\u3052\u304D\u3059\u308B\u6642\u306B\n\u3007\u3007\u3007\u304C
+      \u306A\u308B\u3088\u3046\u306B\u306A\u308B"
+    BuyingPrice: 100
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 17
+      fieldSituation: 0
+      force: 0
+  - Image: {fileID: 21300000, guid: c24467acd744faa4ca1480359c259431, type: 3}
+    Name: "\u30CE\u30ED\u30CE\u30ED\u30A2\u30EB\u30FC\u30AF"
+    Description: "\u30DE\u30EA\u30AA\u306F \u306F\u3057\u308B\u3053\u3068\u304C \u3067\u304D\u306A\u304F\u306A\u3063\u3066\n\u3044\u3069\u3046\u304C
+      \u306E\u308D\u304F\u306A\u308B"
+    BuyingPrice: 12
+    SellingPrice: 0
+    BPNeeded: 0
+    PiantaAmounts: 0
+    StarPieceAmounts: 0
+    effects:
+    - parameter: 33
+      situation: 0
+      ability: 0
+      fieldSituation: 4
+      force: 10
